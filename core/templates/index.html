@@ -1,0 +1,26 @@
+{% extends 'layouts.html' %}
+{% load static %}
+{% block content %}
+<div class="head text-2xl pt-5 pb-2 text-center border-green-400 border-b-2 w-28 ml-3">Flights</div>
+<table class="table-auto  border-2 w-96  ml-3 mt-5">
+    <thead class="bg-gray-200 text-left">
+        <tr>
+            <th>Flight</th>
+            <th>FROM</th>
+            <th>TO</th>
+            <th>TIME</th>
+        </tr>
+    </thead>
+    <tbody >
+        <tr>
+            <td>Flight{{id}}</td>
+            <td>Kochi</td>
+            <td>Berlin</td>
+            <td>17:10</td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+{% endblock %}
